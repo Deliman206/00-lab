@@ -22,10 +22,10 @@ Follow these instructions carefully and in order.
 
 ##### Investigate how `let` and `const` are now used in the code. Where did you need to convert `const` into `let` to make the code work? Can you identify any patterns/similarities?
 
-(Put your answer here)
+`const` was used everytime I had something that wasn't going to change or had an array that i wanted to populate with data that wasn't going to change either. This was relevent in establishing DOM and pushing static data into arrays. However when data being pushed into an array is dynamic, i.e. the data inside the array changes, then `let` was used because it allows for temporary assignment. Most notably `let` was used in for-loops to assign 0 to the variable i. 
 
 ---
 
 ##### How did it go with making the adaptation from concatenations to template literal notation? Do you think you'll mostly use template literal notation from now on?
 
-(Put your answer here)
+template literal are the BOMB. it was way easier to make the adaptation to template literal and almost seemed to make more sense than using concatenation.
