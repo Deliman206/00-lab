@@ -36,7 +36,7 @@ function displayPics(){
     }
   }
   
-  // TODO: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `let to `let`.
+  // DONE: In a sentence or two, explain why the previous line of code threw an error when we changed the constiable declaration from `let to `let`.
   // It threw an error because let is to be used for local scope of the function, the console log was outside the local scope of where the variable rando was defined.
   // PUT YOUR RESPONSE IN THIS COMMENT
   console.log(viewed)
